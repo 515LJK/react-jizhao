@@ -1,0 +1,138 @@
+/**foodDeatil-detail.wxss**/
+.foodDeatil-wrap {
+    font-size: 0;
+}
+
+.foodDeatil-img {
+    width:100%;
+    height:10.0rem;
+}
+
+.foodDeatil-show {
+    overflow: hidden;
+    height:5.1rem;
+    padding:0 0.25rem 0 0.75rem;
+}
+
+.foodDeatil-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top:0.75rem;
+    height:0.95rem;
+    line-height: 0.95rem;
+}
+
+.foodDeatil-name {
+    font-size: 0.75rem;
+    vertical-align: middle;
+}
+
+.foodDeatil-hot,.foodDeatil-new{
+    display: inline-block;
+    margin-left:0.75rem;
+    vertical-align: middle;
+}
+
+.foodDeatil-hot img{
+    width:0.5rem;
+    height:0.6rem;
+    vertical-align: middle;
+}
+
+.foodDeatil-hot span {
+    margin-left:0.25rem;
+    font-size:0.6rem;
+    color:#f39800;
+    vertical-align: middle;
+}
+
+.foodDeatil-new img{
+    width:0.6rem;
+    height:0.6rem;
+    vertical-align: middle;
+}
+
+.foodDeatil-new span {
+    margin-left:0.25rem;
+    font-size:0.7rem;
+    color:#48a6ec;
+    vertical-align: middle;
+}
+
+.collect-img {
+    width:1.0rem;
+    height:0.95rem;
+    vertical-align: middle;
+}
+
+.collect {
+    display: inline-block;
+    margin-left:0.125rem;
+    width:2.4rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color:#666;
+    vertical-align: middle;
+}
+
+.foodDeatil-titileR.active .collect{
+    color:#f39800;
+}
+
+.foodDeatil-area {
+    margin-top:0.6rem;
+    line-height: 1;
+}
+
+.foodDeatil-area .foodDeatil-price {
+    font-size: 0.75rem;
+    color:#e91b1b;
+    font-weight: bold;
+}
+
+.foodDeatil-area .foodDeatil-price span {
+    font-size: 0.6rem;
+}
+
+.foodDeatil-area img {
+    margin-left:1.25rem;
+    width:0.475rem;
+    height:0.625rem;
+}
+
+.foodDeatil-area .foodDeatil-areaName {
+    margin-left:0.35rem;
+    font-size: 0.7rem;
+    color:#999;
+}
+
+.foodDeatil-day {
+    display: block;
+    margin-top:0.75rem;
+    font-size: 0.6rem;
+    color:#999;
+}
+
+.foodDeatil-text {
+    height:2.375rem;
+    padding:0 0.75rem;
+    background:#f2f2f2;
+}
+
+.foodDeatil-text span{
+    display: inline-block;
+    margin-top:0.875rem;
+    height:0.875rem;
+    padding-left:0.4rem;
+    line-height: 0.875rem;
+    font-size: 0.75rem;
+    border-left:0.2rem solid #f39800;
+}
+
+.foodDeatil-detail {
+    padding:0.75rem;
+}
+
+.foodDeatil-detail img {
+    width:100%;
+}

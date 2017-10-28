@@ -1,0 +1,184 @@
+.member-wrap {
+    margin-bottom:2.4rem;
+}
+.member-head {
+    position: relative;
+    width:100%;
+    height:8.875rem;
+}
+.member-bg {
+    width:100%;
+    height:100%;
+}
+
+.member-img {
+    position: absolute;
+    left:1.75rem;
+    top:1.8rem;
+    width:4.25rem;
+    height:4.25rem;
+    border-radius: 50%;
+    background:rgba(255,255,255,.4);
+}
+
+.member-img .member-image{
+    margin-left:0.125rem;
+    margin-top:0.125rem;
+    width:4.0rem;
+    height:4.0rem;
+}
+
+.member-img .crown {
+    position: absolute;
+    left:3.0rem;
+    top:-0.25rem;
+    width:1.0rem;
+    height:0.875rem;
+    transform:rotate(35deg);
+}
+
+.level-link {
+    position: absolute;
+    left:6.95rem;
+    top:2.8rem;
+}
+
+.member-message {
+    height:1.0rem;
+    line-height: 1.0rem;
+}
+
+.member-name {
+    font-size: 0.85rem;
+    color:#fff;
+    font-weight: bold;
+}
+
+.member-level {
+    margin-left: 0.85rem;
+    display: inline-block;
+    height:0.95rem;
+    line-height: 1.0rem;
+    padding:0 0.55rem;
+    border:0.025rem solid #fff;
+    border-radius: 0.75rem;
+    font-size: 0.6rem;
+    color:#fff;
+}
+
+.level-progress {
+    margin-top:0.75rem;
+    font-size: 0.6rem;
+    color:#fff;
+}
+
+.progress-num {
+    margin-left:0.25rem;
+    vertical-align: middle;
+}
+
+
+.member-list {
+    margin-top:0.5rem;
+    letter-spacing: 0.025rem;
+}
+
+.member-item {
+    padding:0 0.65rem;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:2.5rem;
+    line-height: 2.5rem;
+    border-bottom: 0.025rem solid #d0d0d0;
+    font-size: 0.7rem;
+}
+
+.member-item:nth-of-type(1),.member-item:nth-of-type(2) {
+    margin:0 0.65rem;
+    padding:0;
+}
+
+.member-item:last-child {
+    margin-bottom:0.25rem;
+    border:none;
+}
+
+.member-item img,.member-item span {
+    vertical-align: middle;
+}
+
+.right-icon {
+    width:0.4rem;
+    height:0.75rem;
+}
+
+.rights-icon {
+    margin-right:0.6rem;
+    width:0.9rem;
+    height:1.0rem;
+}
+
+.activity-icon {
+    margin-right: 0.5rem;
+    width:1.0rem;
+    height:0.95rem;
+}
+
+.QR-icon {
+    margin-right:0.75rem;
+    width:0.75rem;
+    height:0.775rem;
+}
+
+.discount-icon {
+    margin-right:0.575rem;
+    width:0.925rem;
+    height:0.6rem;
+}
+
+.record-icon {
+    margin-right: 0.725rem;
+    width:0.775rem;
+    height:0.85rem;
+}
+
+.deal-icon {
+    margin-right:0.65rem;
+    width:0.85rem;
+    height:0.85rem;
+}
+
+.collect-icon {
+    margin-right: 0.625rem;
+    width:0.875rem;
+    height:0.85rem;
+}
+
+.member-show {
+    box-sizing: border-box;
+    width:100%;
+    padding:0.75rem 0 0.25rem 2.25rem;
+    border-bottom: 0.025rem solid #d0d0d0;
+}
+
+.member-show.none-border {
+    border: none;
+}
+
+.show-item {
+    margin-bottom:0.5rem;
+    display: inline-block;
+    width:50%;
+    line-height: 1;
+    font-size:0.6rem;
+    color:#666;
+}
+
+.member-black {
+    width:100%;
+    height:0.5rem;
+    background:#f2f2f2;
+}
+
+
