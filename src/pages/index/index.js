@@ -16,7 +16,7 @@ class Index extends Component{
 		return (
 			<div>
 				<div className="searchHead">
-				    <Link to="/select-detail" className="searchLink">
+				    <Link to="/index/select-detail" className="searchLink">
 				        <img src={require('image/select.png')} className="iconSelect " />
 				        <span className="searchInput">请输入商品名、商家</span>
 				    </Link> 
