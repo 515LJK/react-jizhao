@@ -1,0 +1,83 @@
+.activity-list {
+  box-sizing: border-box;
+  width:100%;
+  padding-left:0.75rem;
+}
+
+.activity-item {
+  height:5.975rem;
+  border-bottom:0.025rem solid #d9d9d9;
+}
+
+.activity-item a{
+  display: flex;
+  box-sizing:border-box; 
+  width:100%;
+  height:100%;
+  padding-top:0.75rem;
+  font-size: 0;
+}
+
+.activity-item .activity-img {
+  flex:0 1 6.2rem;
+  width:6.2rem;
+  height:4.5rem;
+}
+
+.activity-right {
+  flex:1;
+  padding-left:1.0rem;
+  padding-right:0.7rem;
+}
+
+.activity-right .activity-title {
+  display: block;
+  font-size: 0.75rem;
+  color:#333;
+  line-height: 1.275rem;
+}
+
+.activity-right .activity-discount {
+  display: block;
+  font-size: 0.6rem;
+  line-height: 1.725rem;
+  color:#666;
+}
+
+.activity-right .activity-display {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5rem;
+}
+.activity-display .activity-time {
+  font-size: 0.6rem;
+  color:#999;
+  vertical-align: middle;
+}
+
+.activity-ing img{
+  width:0.6rem;
+  height:0.6rem;
+  vertical-align: middle;
+}
+
+.activity-ing span {
+  margin-left:0.25rem;
+  font-size: 0.6rem;
+  color:#db5310;
+  vertical-align: middle;
+}
+
+.activity-countdown img{
+  width:0.55rem;
+  height:0.6rem;
+  vertical-align: middle;
+}
+
+.activity-countdown span {
+  margin-left:0.25rem;
+  font-size: 0.6rem;
+  color:#48a6ec;
+  vertical-align: middle;
+}
+

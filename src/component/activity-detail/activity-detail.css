@@ -1,0 +1,128 @@
+/**activityDeatil-detail.wxss**/
+.activityDeatil-wrap {
+    font-size: 0;
+}
+.activityDeatil-img {
+    width:100%;
+    height:10.0rem;
+}
+
+.activityDeatil-show {
+    overflow: hidden;
+    height:5.1rem;
+    padding:0 0.25rem 0 0.75rem;
+}
+
+.activityDeatil-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top:1.0rem;
+    height:0.95rem;
+    line-height: 0.95rem;
+}
+
+.activityDeatil-name {
+    font-size: 0.75rem;
+    vertical-align: middle;
+}
+
+.activityDeatil-ing {
+    display: inline-block;
+    margin-left:0.75rem;
+    vertical-align: middle;
+}
+
+.activityDeatil-ing img{
+  width:0.6rem;
+  height:0.6rem;
+  vertical-align: middle;
+}
+
+.activityDeatil-ing span {
+  margin-left:0.25rem;
+  font-size: 0.6rem;
+  color:#f39800;
+  vertical-align: middle;
+}
+
+.activityDeatil-countdown {
+    display: inline-block;
+    margin-left:0.75rem;
+    vertical-align: middle;
+}
+
+.activityDeatil-countdown img{
+  width:0.55rem;
+  height:0.6rem;
+  vertical-align: middle;
+}
+
+.activityDeatil-countdown span {
+  margin-left:0.25rem;
+  font-size: 0.6rem;
+  color:#48a6ec;
+  vertical-align: middle;
+}
+
+.collect-img {
+    width:1.0rem;
+    height:0.95rem;
+    vertical-align: middle;
+}
+
+.collect {
+    display: inline-block;
+    margin-left:0.125rem;
+    width:2.4rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color:#666;
+    vertical-align: middle;
+}
+
+.collect.active {
+    color:#f39800;
+}
+
+.activityDeatil-titileR.active .collect{
+    color:#f39800;
+}
+
+.activityDeatil-discount {
+    display: block;
+    margin-top:0.6rem;
+    line-height: 1;
+    font-size: 0.6rem;
+    color:#666;
+}
+
+.activityDeatil-day {
+    display: block;
+    margin-top:0.75rem;
+    font-size: 0.6rem;
+    color:#999;
+}
+
+.activityDeatil-text {
+    height:2.375rem;
+    padding:0 0.75rem;
+    background:#f2f2f2;
+}
+
+.activityDeatil-text span{
+    display: inline-block;
+    margin-top:0.875rem;
+    height:0.875rem;
+    padding-left:0.4rem;
+    line-height: 0.875rem;
+    font-size: 0.75rem;
+    border-left:0.2rem solid #f39800;
+}
+
+.activityDeatil-detail {
+    padding:0.75rem;
+}
+
+.activityDeatil-detail img {
+    width:100%;
+}

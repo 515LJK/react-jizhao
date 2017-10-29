@@ -1,0 +1,76 @@
+.searchHead {
+  width:100%;
+  height:2.25rem;
+  padding-top:0.475rem;
+  text-align: center;
+  background: #fff;
+}
+
+.searchLink {
+  display: inline-block;
+  width:17.25rem;
+  height:1.3rem;
+  background: #f0f0f0;
+  line-height: 1.3rem;
+  font-size: 0.65rem;
+  color:#a3a6ab;
+  border-radius: 0.125rem;
+  text-align: center;
+}
+
+.iconSelect {
+  margin-right:0.2rem;
+  width:1rem;
+  height:1rem;
+  vertical-align: middle;
+}
+
+.searchInput {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*tab*/
+.tab-list {
+  display: flex;
+  justify-content: space-around;
+  width:100%;
+  height:2.1rem;
+  line-height: 2.1rem;
+}
+
+.tab-item {
+  width:33.33%;
+  color:#333;
+  font-size: 0.7rem;
+  text-align: center;
+  border-bottom: 0.1rem solid #dadada;
+}
+
+.tab-item span {
+  display: inline-block;
+  width:100%;
+  border-right:0.025rem solid #e3e3e3;
+  line-height: 1;
+}
+
+.tab-item:last-child span {
+  border-right:none;
+}
+
+.tab-item.active {
+  color:#f39800;
+  border-color:#f39800;
+}
+
+.tab-wrap {
+    display: none;
+}
+
+.tab-wrap.active {
+    display: block;
+}
+
+.tab-wrapper {
+    margin-bottom:0.75rem;
+}
