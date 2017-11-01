@@ -10,7 +10,7 @@ class Party extends Component{
 	render(){
 		return (
 			<div className="party-list">
-			    <Link to="/member/party-detail" className="party-item">
+			    <Link to="/invite/party-detail" className="party-item">
 			        <div className="party-item-head">
 			            <div className="headL">
 			                <img src={require('image/party-img.png')} className="party-img"></img>
