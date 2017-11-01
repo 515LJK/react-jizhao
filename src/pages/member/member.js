@@ -16,7 +16,7 @@ class Member extends Component{
 			            <img src={require('image/party-img.png')} className="member-image"></img>
 			            <img src={require('image/bronze.png')} className="crown"></img>
 			        </div>
-			        <a className="level-link">
+			        <Link to="/member/member-level" className="level-link">
 			            <div className="member-message">
 			                <span className="member-name">Yan</span>
 			                <div className="member-level">青铜会员</div>
@@ -25,7 +25,7 @@ class Member extends Component{
 			                <Progress total="100" num="60"/>
 			                <span className="progress-num">60%</span>
 			            </div>
-			        </a>
+			        </Link>
 			    </div>
 			    <div className="member-content">
 			        <div className="member-list">
