@@ -19,6 +19,8 @@ import MemberRights from 'bundle-loader?lazy&name=member-rights!component/member
 import QR from 'bundle-loader?lazy&name=QR!component/QR/QR.js';
 import PartyRecord from 'bundle-loader?lazy&name=party-record!component/party-record/party-record.js';
 import DealRecord from 'bundle-loader?lazy&name=activity-deatil!component/deal-record/deal-record.js';
+import MemberLevel from 'bundle-loader?lazy&name=member-level!component/member-level/member-level.js';
+import PartyDetail from 'bundle-loader?lazy&name=party-detail!component/party-detail/party-detail.js';
 
 const Loading = function () {
     return <div>Loading...</div>
@@ -47,11 +49,13 @@ const Router = () =>(
 				<Route path="/invite/face-party" component={createComponent(FaceParty)} / >
 				<Route path="/member/collect" component={createComponent(Collect)} / >
 				<Route path="/invite/start-party" component={createComponent(StartParty)} / >
+				<Route path="/invite/party-detail" component={createComponent(PartyDetail)} / >
 				<Route path="/member/coupon" component={createComponent(Coupon)} / >
 				<Route path="/member/member-rights" component={createComponent(MemberRights)} / >
 				<Route path="/member/QR" component={createComponent(QR)} / >
 				<Route path="/member/party-record" component={createComponent(PartyRecord)} / >
 				<Route path="/member/deal-record" component={createComponent(DealRecord)} / >
+				<Route path="/member/member-level" component={createComponent(MemberLevel)} / >
 			</Switch>
 			<Footer/>
 		</div>
