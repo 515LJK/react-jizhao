@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 
+import {Link} from 'react-router-dom';
+
 import './party.css';
 
 
@@ -8,7 +10,7 @@ class Party extends Component{
 	render(){
 		return (
 			<div className="party-list">
-			    <a className="party-item">
+			    <Link to="/member/party-detail" className="party-item">
 			        <div className="party-item-head">
 			            <div className="headL">
 			                <img src={require('image/party-img.png')} className="party-img"></img>
@@ -46,7 +48,7 @@ class Party extends Component{
 			                <span>时间：<span className="detail-span">2017-08-11 11:30</span></span>
 			            </div>
 			        </div>
-			    </a>
+			    </Link>
 			</div>
 		)
 
